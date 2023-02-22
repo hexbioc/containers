@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+
+  redis:
+    image: "redis:7.0.8-alpine3.17"
+    ports:
+      - "6380:6379"
+
+  mongodb:
+    image: "mongodb/mongodb-community-server:6.0.4-ubi8"
+    ports:
+      - "27018:27017"
