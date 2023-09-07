@@ -29,6 +29,7 @@ This instruction does not create a layer, rather it specifies the command with w
 this will be along the lines of `node dist/index.js`, `python main.py`, etc. Often, the `ENTRYPOINT` is coupled with the
 `CMD` instruction for additional flexibility while spawning containers.
 
+---
 
 The commands above are primarily used to setup a simple `Dockerfile`. There are more ways to use the instructions above,
 and there also exist other useful instructions. Read more about them in the
