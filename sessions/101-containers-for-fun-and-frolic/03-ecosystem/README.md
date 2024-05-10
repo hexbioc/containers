@@ -13,7 +13,7 @@ Some well known registries:
 
 - [DockerHub](https://hub.docker.com/)
 - AWS ECR - AWS's Elastic Container Registry
-- GCR - Google Container Registry (from GCP)
+- Google Artifact Registry (from GCP)
 
 
 ## Orchestration Tools
